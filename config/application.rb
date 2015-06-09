@@ -6,7 +6,6 @@ require 'rails/all'
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
-config.serve_static_assets = true
 
 module AngularApp1
   class Application < Rails::Application
@@ -26,3 +25,5 @@ module AngularApp1
     config.active_record.raise_in_transactional_callbacks = true
   end
 end
+
+
