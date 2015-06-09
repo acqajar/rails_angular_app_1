@@ -77,5 +77,5 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   # Compressor for JavaScript
-  config.assets.js_compressor = Sprockets::LazyCompressor.new { Uglifier.new(:mangle => false) }
+  config.assets.js_compressor = Uglifier.new(:mangle => false)
 end
