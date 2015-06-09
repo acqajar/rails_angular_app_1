@@ -52,7 +52,7 @@ angular.module('app').controller("MainController", function(){
             year: 1993,
             author: 'Eula Biss',
             favorite: false
-        },
+        }
 
     ];
     vm.orders = [
