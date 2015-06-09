@@ -50,9 +50,21 @@ angular.module('app').controller("MainController", function(){
         {
             title: 'How to Lie With Statistics ',
             year: 1993,
-            author: 'Eula Biss',
+            author: 'Darrell Huff',
             favorite: false
-        }
+        },
+        {
+            title: 'Creative Schools: The Grassroots Revolution That’s Transforming Education ',
+            year: 2015,
+            author: 'Ken Robinson',
+            favorite: false
+        },
+        {
+            title: 'World Order ',
+            year: 2014,
+            author: 'Henry Kissinger',
+            favorite: false
+        },
 
     ];
     vm.orders = [
